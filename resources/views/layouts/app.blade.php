@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Оранжевая ферма</title>
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <!-- Подключение CSS через Vite -->
     @vite('resources/css/app.css')
-    @vite('resources/js/app.js')
 </head>
 <body>
-    @include('partials.header') <!-- Подключаем header -->
+    <!-- Подключение Header -->
+    @include('partials.header')
 
+    <!-- Основной контент -->
     <main>
-        @yield('content') <!-- Здесь будет основной контент -->
+        @yield('content')
     </main>
 
-    @include('partials.footer') <!-- Подключаем footer -->
+    <!-- Подключение Footer -->
+    @include('partials.footer')
 
-    <script src="{{ mix('js/app.js') }}"></script>
+    <!-- Подключение JS через Vite -->
+    @vite('resources/js/app.js')
 </body>
 </html>
