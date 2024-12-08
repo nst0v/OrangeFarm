@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{{ asset('storage/logo.webp') }}" type="image/x-icon">
     <title>Оранжевая ферма</title>
     <!-- Подключение CSS через Vite -->
     @vite('resources/css/app.css')

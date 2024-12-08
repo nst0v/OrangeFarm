@@ -1,42 +1,61 @@
-<footer class="bg-orange-800 text-white py-6">
-    <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
-        <!-- Логотип или название -->
-        <div class="flex flex-col items-center mb-4 md:mb-0">
-            <img src="/path-to-logo.png" alt="Оранжевая ферма" class="h-10">
-            <p class="text-sm mt-2 text-center">© 2024 Оранжевая ферма. Все права защищены.</p>
+<footer class="py-4 relative backdrop-blur-sm"><!-- уменьшил py-6 до py-4 -->
+    <div class="container mx-auto px-6">
+        <div class="grid md:grid-cols-3 gap-6"><!-- уменьшил gap-8 до gap-6 -->
+            <!-- Contact Info -->
+            <div class="text-center md:text-left">
+                <h3 class="footer-heading px-3 py-1.5 rounded-full inline-block mb-3 text-sm">Контакты</h3>
+                <ul class="space-y-1.5"><!-- уменьшил space-y-2 до space-y-1.5 -->
+                    <li class="footer-link px-3 py-1.5 rounded-full text-sm">Email: info@orangefarm.com</li>
+                    <li class="footer-link px-3 py-1.5 rounded-full text-sm">Тел: +7 (XXX) XXX-XX-XX</li>
+                    <li class="footer-link px-3 py-1.5 rounded-full text-sm">Адрес: Ваш адрес</li>
+                </ul>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="text-center">
+                <h3 class="footer-heading px-3 py-1.5 rounded-full inline-block mb-3 text-sm">Навигация</h3>
+                <ul class="space-y-1.5">
+                    <li><a href="#about" class="footer-link px-3 py-1.5 rounded-full inline-block text-sm">О нас</a></li>
+                    <li><a href="#rental" class="footer-link px-3 py-1.5 rounded-full inline-block text-sm">Аренда</a></li>
+                    <li><a href="#products" class="footer-link px-3 py-1.5 rounded-full inline-block text-sm">Продукция</a></li>
+                </ul>
+            </div>
+
+            <!-- Social Media -->
+            <div class="text-center md:text-right">
+                <h3 class="footer-heading px-3 py-1.5 rounded-full inline-block mb-3 text-sm">Соцсети</h3>
+                <ul class="space-y-1.5">
+                    <li><a href="#" class="footer-link px-3 py-1.5 rounded-full inline-block text-sm">Instagram</a></li>
+                    <li><a href="#" class="footer-link px-3 py-1.5 rounded-full inline-block text-sm">VKontakte</a></li>
+                    <li><a href="#" class="footer-link px-3 py-1.5 rounded-full inline-block text-sm">Telegram</a></li>
+                </ul>
+            </div>
         </div>
 
-        <!-- Навигация -->
-        <nav class="mb-4 md:mb-0">
-            <ul class="flex flex-wrap justify-center space-x-6">
-                <li><a href="#about" class="hover:underline">О нас</a></li>
-                <li><a href="#products" class="hover:underline">Продукция</a></li>
-                <li><a href="#rental" class="hover:underline">Аренда</a></li>
-                <li><a href="#contact" class="hover:underline">Контакты</a></li>
-            </ul>
-        </nav>
-
-        <!-- Социальные сети -->
-        <div class="flex space-x-4 mt-4 md:mt-0">
-            <a href="https://vk.com" target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40">
-                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="#4C75A3"/>
-                    <text x="50%" y="50%" font-family="Arial" font-size="12" fill="white" text-anchor="middle" alignment-baseline="middle">VK</text>
-                </svg>
-            </a>
-            <a href="https://instagram.com" target="_blank" class="hover:text-gray-300">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 2.163c3.2 0 3.584.012 4.85.07 1.17.054 1.97.24 2.417.407a4.9 4.9 0 0 1 1.68 1.095 4.9 4.9 0 0 1 1.095 1.68c.167.447.353 1.247.407 2.417.058 1.266.07 1.65.07 4.85s-.012 3.584-.07 4.85c-.054 1.17-.24 1.97-.407 2.417a4.9 4.9 0 0 1-1.095 1.68 4.9 4.9 0 0 1-1.68 1.095c-.447.167-1.247.353-2.417.407-1.266.058-1.65.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.054-1.97-.24-2.417-.407a4.9 4.9 0 0 1-1.68-1.095 4.9 4.9 0 0 1-1.095-1.68c-.167-.447-.353-1.247-.407-2.417-.058-1.266-.07-1.65-.07-4.85s.012-3.584.07-4.85c.054-1.17.24-1.97.407-2.417a4.9 4.9 0 0 1 1.095-1.68 4.9 4.9 0 0 1 1.68-1.095c.447-.167 1.247-.353 2.417-.407C8.416 2.175 8.8 2.163 12 2.163zm0-2.163C8.745 0 8.332.014 7.053.073 5.773.132 4.646.344 3.78.678a6.946 6.946 0 0 0-2.53 1.648A6.946 6.946 0 0 0 .68 4.855c-.334.866-.546 1.993-.605 3.273C0 9.253 0 9.667 0 12s.014 2.747.073 4.027c.059 1.28.271 2.407.605 3.273a6.946 6.946 0 0 0 1.648 2.53 6.946 6.946 0 0 0 2.53 1.648c.866.334 1.993.546 3.273.605C8.747 24 9.161 24 12 24s3.253-.014 4.527-.073c1.28-.059 2.407-.271 3.273-.605a6.946 6.946 0 0 0 2.53-1.648 6.946 6.946 0 0 0 1.648-2.53c.334-.866.546-1.993.605-3.273.059-1.28.073-1.694.073-4.527s-.014-2.747-.073-4.027c-.059-1.28-.271-2.407-.605-3.273a6.946 6.946 0 0 0-1.648-2.53A6.946 6.946 0 0 0 19.8.678C18.933.344 17.807.132 16.527.073 15.253.014 14.84 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 1 0 0-12.324zm0 2.162a4 4 0 1 1 0 8 4 4 0 1 1 0-8zm6.406-4.21a1.44 1.44 0 1 1 0 2.88 1.44 1.44 0 0 1 0-2.88z"></path>
-                </svg>
-            </a>
-            <a href="wa" target="_blank" class="hover:text-gray-300">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                    <path
-                            d="M21.98 11.4104C21.64 5.61044 16.37 1.14045 10.3 2.14045C6.11998 2.83045 2.76999 6.22043 2.11999 10.4004C1.73999 12.8204 2.24001 15.1104 3.33001 17.0004L2.43999 20.3104C2.23999 21.0604 2.92998 21.7404 3.66998 21.5304L6.92999 20.6304C8.40999 21.5004 10.14 22.0004 11.99 22.0004C17.63 22.0004 22.31 17.0304 21.98 11.4104ZM16.88 15.7204C16.79 15.9004 16.68 16.0704 16.54 16.2304C16.29 16.5004 16.02 16.7004 15.72 16.8204C15.42 16.9504 15.09 17.0104 14.74 17.0104C14.23 17.0104 13.68 16.8905 13.11 16.6405C12.53 16.3905 11.96 16.0604 11.39 15.6504C10.81 15.2304 10.27 14.7604 9.74999 14.2504C9.22999 13.7304 8.76997 13.1804 8.34997 12.6104C7.93997 12.0404 7.60999 11.4704 7.36999 10.9004C7.12999 10.3304 7.01 9.78045 7.01 9.26045C7.01 8.92044 7.06999 8.59044 7.18999 8.29044C7.30999 7.98044 7.50001 7.70045 7.77001 7.45045C8.09001 7.13045 8.43999 6.98045 8.80999 6.98045C8.94999 6.98045 9.08996 7.01044 9.21996 7.07044C9.34996 7.13044 9.46999 7.22044 9.55999 7.35044L10.72 8.99043C10.81 9.12043 10.88 9.23043 10.92 9.34043C10.97 9.45043 10.99 9.55043 10.99 9.65043C10.99 9.77043 10.95 9.89045 10.88 10.0104C10.81 10.1304 10.72 10.2504 10.6 10.3704L10.22 10.7704C10.16 10.8304 10.14 10.8904 10.14 10.9704C10.14 11.0104 10.15 11.0504 10.16 11.0904C10.18 11.1304 10.19 11.1604 10.2 11.1904C10.29 11.3604 10.45 11.5704 10.67 11.8304C10.9 12.0904 11.14 12.3604 11.4 12.6204C11.67 12.8904 11.93 13.1304 12.2 13.3604C12.46 13.5804 12.68 13.7304 12.85 13.8204C12.88 13.8304 12.91 13.8504 12.94 13.8604C12.98 13.8804 13.02 13.8804 13.07 13.8804C13.16 13.8804 13.22 13.8504 13.28 13.7904L13.66 13.4104C13.79 13.2804 13.91 13.1904 14.02 13.1304C14.14 13.0604 14.25 13.0204 14.38 13.0204C14.48 13.0204 14.58 13.0404 14.69 13.0904C14.8 13.1404 14.92 13.2004 15.04 13.2904L16.7 14.4704C16.83 14.5604 16.92 14.6704 16.98 14.7904C17.03 14.9204 17.06 15.0404 17.06 15.1804C17 15.3504 16.96 15.5404 16.88 15.7204Z"
-                            fill="#001737" />
-                </svg>
-            </a>
-
+        <div class="text-center mt-6"><!-- уменьшил mt-8 до mt-6 -->
+            <p class="footer-link px-3 py-1.5 rounded-full inline-block text-sm">© 2024 Оранжевая ферма. Все права защищены.</p>
         </div>
     </div>
 </footer>
+
+
+<style>
+    .footer-heading {
+        background-color: rgba(0, 0, 0, 0.4);
+        color: white;
+        backdrop-filter: blur(4px);
+    }
+
+    .footer-link {
+        background-color: rgba(0, 0, 0, 0.2);
+        color: white;
+        backdrop-filter: blur(4px);
+        transition: all 0.3s ease;
+        display: inline-block;
+    }
+
+    .footer-link:hover {
+        background-color: rgba(0, 0, 0, 0.4);
+        transform: translateY(-1px);
+    }
+</style>
