@@ -1,6 +1,5 @@
-import { createApp } from 'vue';
 import '../css/app.css';
-import './bootstrap';
+import './bootstrap.js';
 import.meta.glob(['../images/**']);
 
-createApp(App).mount('#app');
+
