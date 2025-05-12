@@ -1,0 +1,87 @@
+// Основная цветовая палитра
+$background-color: #f8f5f0;   // Светлый кремовый фон
+$color-primary: #e67e22;      // Мягкий оранжевый - основной цвет
+$color-secondary: #f8f5f0;    // Светлый кремовый - фоновый цвет
+$color-accent: #5d8a68;       // Приглушенный зеленый - акцентный цвет
+$color-dark: #4a4a4a;         // Мягкий темно-серый - для текста
+$color-light: #ffffff;        // Белый - для контраста
+$color-muted: #9a9a9a;        // Приглушенный серый - для второстепенной информации
+
+// Дополнительные оттенки
+$color-primary-light: #f5b27e; // Светлый оранжевый
+$color-primary-dark: #d35400;  // Темный оранжевый
+$color-accent-light: #8ab594;  // Светлый зеленый
+$color-accent-dark: #3e5d47;   // Темный зеленый
+$color-neutral: #e0e0e0;       // Нейтральный серый
+
+// Функциональные цвета
+$color-success: #7cb342;      // Зеленый - для успешных действий
+$color-warning: #f39c12;      // Оранжевый - для предупреждений
+$color-error: #e74c3c;        // Красный - для ошибок
+
+// Шрифты
+$font-primary: 'Nunito', sans-serif;  // Современный, округлый шрифт для основного текста
+$font-secondary: 'Playfair Display', serif; // Элегантный шрифт для заголовков
+
+// Размеры шрифтов
+$font-size-xs: 0.75rem;      // 12px
+$font-size-sm: 0.875rem;     // 14px
+$font-size-base: 1rem;       // 16px
+$font-size-md: 1.125rem;     // 18px
+$font-size-lg: 1.25rem;      // 20px
+$font-size-xl: 1.5rem;       // 24px
+$font-size-xxl: 2rem;        // 32px
+$font-size-xxxl: 2.5rem;     // 40px
+
+// Толщина шрифта
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+// Высота строки
+$line-height-base: 1.6;
+$line-height-sm: 1.4;
+$line-height-lg: 1.8;
+
+// Контейнер
+$container-max-width: 1200px;
+$container-padding: 15px;
+
+// Брейкпоинты
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+// Отступы
+$spacing-xs: 0.25rem;        // 4px
+$spacing-sm: 0.5rem;         // 8px
+$spacing-md: 1rem;           // 16px
+$spacing-lg: 1.5rem;         // 24px
+$spacing-xl: 2rem;           // 32px
+$spacing-xxl: 3rem;          // 48px
+
+// Радиусы
+$border-radius-sm: 0.25rem;  // 4px
+$border-radius-md: 0.5rem;   // 8px
+$border-radius-lg: 1rem;     // 16px
+
+// Тени
+$box-shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+$box-shadow-md: 0 4px 8px rgba(0, 0, 0, 0.08);
+$box-shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.1);
+
+// Контрольные точки для адаптивности
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+// Максимальная ширина контейнера
+$container-max-width: 1200px;
+
+// Переходы
+$transition-base: all 0.3s ease;
+$transition-fast: all 0.2s ease;
+$transition-slow: all 0.5s ease;
